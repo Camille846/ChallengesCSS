@@ -53,3 +53,11 @@ body{
     bottom: -5px;
     right: 10%;
 }
+
+.btn:hover::before{
+    left:80%;
+}
+
+.btn:hover::after{
+    right: 80%;
+}
