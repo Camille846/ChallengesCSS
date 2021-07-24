@@ -12,13 +12,14 @@ body{
     display: flex;
 }
 
-.section{
+section{
     width: 100%;
     height: 100%;
     position: relative;
 }
 
 .txt{
+    width: 100%;
     height: 100%;
     white-space: nowrap;
     text-transform: uppercase;
@@ -34,7 +35,6 @@ body{
 }
 
 .side-left .txt{
-    width: 50%;
     color: white;
     border: 2px solid black;
     background-color: rgb(233, 83, 83);
@@ -54,7 +54,6 @@ body{
     position: absolute;
 }
 
-
 @keyframes animate{
     0%{
         transform: translateX(0);
@@ -62,5 +61,6 @@ body{
 
     100%{
         transform: translateX(-150%);
+        
     }
 }
