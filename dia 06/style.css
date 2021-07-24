@@ -72,7 +72,7 @@ li:nth-child(11){
 		text-shadow: none;
 	}
     100%{
-        color:#fff900;
-        text-shadow: 0 0 7px #fff900, 0 0 50px #ff6c00;
+        color:#ff6392;
+        text-shadow: 0 0 7px #ff6392, 0 0 50px #ff0a54;
     }
 }
