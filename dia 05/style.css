@@ -24,10 +24,10 @@ body{
     text-transform: uppercase;
     font-family: Verdana, sans-serif;
     font-size: 15px;
-    animation: animate 4s linear infinite;
+    animation: pulsing 4s linear infinite;
 }
 
-@keyframes animate{
+@keyframes pulsing{
     0%{
         box-shadow: 0 0 0 0 rgba(55, 209, 201, 0.7), 0 0 0 0 rgba(24, 153, 104, 0.7);
     }
