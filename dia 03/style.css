@@ -1,57 +1,40 @@
-*{
+body{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-body{
-    width: 100%;
-    height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
-    overflow: hidden;
-    display: flex;
 }
 
-section{
+.panel{
+    background: #eaffae;
     width: 100%;
     height: 100%;
-    position: relative;
+    box-sizing: border-box;
+    position: absolute;
+    overflow: hidden;
+}
+
+.wrapper{
+    height: 100%;
+    width:50%;
+    position: absolute;
+    top:0;
+    left: 0;
+    border-right: 1px solid #000;
+    background: #f55757;
+    color: #eaffae;
+    overflow: hidden;
 }
 
 .txt{
-    width: 100%;
-    height: 100%;
+    position: absolute;
+    top:40%;
     white-space: nowrap;
     text-transform: uppercase;
     font-size: 12em;
     font-weight: 700;
-    line-height: 200px;
-    display: flex;
-    align-items: center;
-}
-
-.txt p{
-    animation: animate 15s linear infinite;
-}
-
-.side-left .txt{
-    color: white;
-    border: 2px solid black;
-    background-color: rgb(233, 83, 83);
-}
-
-.side-left p{
-    z-index: 2;
-    position: relative;
-}
-
-.side-right .txt{
-    background-color: white;
-    color:black;
-}
-
-.side-right p{
-    position: absolute;
+    line-height: 220px;
+    overflow: hidden;
+    animation: animate 10s linear infinite;
 }
 
 @keyframes animate{
@@ -60,7 +43,7 @@ section{
     }
 
     100%{
-        transform: translateX(-150%);
+        transform: translateX(-50%);
         
     }
 }
