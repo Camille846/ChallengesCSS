@@ -14,27 +14,43 @@ Se você chegou agora e quer começar o desafio, fique a vontade, o desafio não
 
 + Dia 01 - Ícone de mídia social em camadas
 ![dia01](https://user-images.githubusercontent.com/83260908/127248714-f4475dd4-983d-473d-9a7f-43c57ce40e92.gif)
+
 <a href="https://github.com/Camille846/30diasDeCSS/tree/master/dia%2001">Meu código</a>
+
 + Dia 02 - Loader animado
 ![dia02](https://user-images.githubusercontent.com/83260908/127248718-5079e534-4427-44e0-82b6-ff2b592bd775.gif)
+
 <a href="https://github.com/Camille846/30diasDeCSS/tree/master/dia%2002">Meu código</a>
+
 + Dia 03 - Mudança de cor de texto quando entra em outra div
+
 <a href="https://github.com/Camille846/30diasDeCSS/tree/master/dia%2003">Meu código</a>
+
 + Dia 04 - Botão com efeito
 ![dia04](https://user-images.githubusercontent.com/83260908/127248723-414572b1-8a3a-43c1-90de-ad3968f55369.gif)
+
 <a href="https://github.com/Camille846/30diasDeCSS/tree/master/dia%2004">Meu código</a>
+
 + Dia 05 - Efeito pulsar
-![dia05](https://user-images.githubusercontent.com/83260908/127248725-80cddc5e-94f3-4f1b-9abf-b4b7fe7c4927.gif)
+![dia5](https://user-images.githubusercontent.com/83260908/127250372-3da5b36f-4f77-4655-a424-08605e4415b0.gif)
+
 <a href="https://github.com/Camille846/30diasDeCSS/tree/master/dia%2005">Meu código</a>
+
 + Dia 06 - Efeito lightning text
 ![dia06](https://user-images.githubusercontent.com/83260908/127248702-5de8adb9-f103-43c7-9a3e-96769d6f5d1b.gif)
+
 <a href="https://github.com/Camille846/30diasDeCSS/tree/master/dia%2006">Meu código</a>
+
 + Dia 07 - Preloader animado
 ![dia07](https://user-images.githubusercontent.com/83260908/127248708-b0830eda-5d5f-4c53-a87b-5094fa4a3d30.gif)
+
 <a href="https://github.com/Camille846/30diasDeCSS/tree/master/dia%2007">Meu código</a>
+
 + Dia 08 - Coração batendo
 ![dia08](https://user-images.githubusercontent.com/83260908/127248710-b5c607d1-7298-41d2-9a78-4ff4e67ab57e.gif)
+
 <a href="https://github.com/Camille846/30diasDeCSS/tree/master/dia%2008">Meu código</a>
+
 + Dia 09 - Pendulo de Newton
 + Dia 10 - Animação texto alternando
 + Dia 11 - Botão com efeito hover
