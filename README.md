@@ -24,6 +24,8 @@ Se você chegou agora e quer começar o desafio, fique a vontade, o desafio não
 
 + Dia 03 - Mudança de cor de texto quando entra em outra div
 
+![dia-3](https://user-images.githubusercontent.com/83260908/127319579-152fb124-d427-44b9-aeb4-1ce8f3d97ab1.gif)
+
 <a href="https://github.com/Camille846/30diasDeCSS/tree/master/dia%2003">Meu código</a>
 
 + Dia 04 - Botão com efeito
