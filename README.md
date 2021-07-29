@@ -53,7 +53,7 @@ Se você chegou agora e quer começar o desafio, fique a vontade, o desafio não
 
 <a href="https://github.com/Camille846/30diasDeCSS/tree/master/dia%2008">Meu código</a>
 
-+ Dia 09 - Pendulo de Newton
++ Dia 09 - Pêndulo de Newton
 ![dia09](https://user-images.githubusercontent.com/83260908/127419828-3955c455-0e78-4ef0-bd1b-eb2e616ae47b.gif)
 
 <a href="https://github.com/Camille846/30diasDeCSS/tree/master/dia%2009">Meu código</a>
