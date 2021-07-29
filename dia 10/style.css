@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding: 0;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #aefaf5;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.texto{
+    font-size: 3em;
+    color:#000;
+}
+
+.texto span::after{
+    content: '';
+    animation: animate 4s ease-in-out infinite;
+}
+
+@keyframes animate{
+    0%{
+        content: '🍕';
+    }
+
+    50%{
+        content: '💻';
+    }
+
+    100%{
+        content:'🎮'
+    }
+}
