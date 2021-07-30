@@ -59,6 +59,10 @@ Se você chegou agora e quer começar o desafio, fique a vontade, o desafio não
 <a href="https://github.com/Camille846/30diasDeCSS/tree/master/dia%2009">Meu código</a>
 
 + Dia 10 - Animação texto alternando
+![dia--10](https://user-images.githubusercontent.com/83260908/127586554-cef3dc7c-2759-4786-867e-27a03df6399a.gif)
+
+<a href="https://github.com/Camille846/30diasDeCSS/tree/master/dia%2010">Meu código</a>
+
 + Dia 11 - Botão com efeito hover
 + Dia 12 - Efeito de preenchimento ao passar o mouse
 + Dia 13 - Loading com efeito
