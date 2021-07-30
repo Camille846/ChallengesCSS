@@ -16,7 +16,7 @@ body{
 
 .texto span::after{
     content: '';
-    animation: animate 4s ease-in-out infinite;
+    animation: animate 3s linear infinite;
 }
 
 @keyframes animate{
