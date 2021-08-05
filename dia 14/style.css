@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a5b2b2;
+}
+
+h1{
+    font-size: 12em;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    color: transparent;
+    background: url(images/image.jpg);
+    background-repeat: repeat-x;
+    background-clip: text;
+    -webkit-background-clip:text;
+    animation: animate 15s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        background-position: 0 0;
+    }
+
+    100%{
+        background-position: 100% 100%;
+    }
+}
