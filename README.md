@@ -93,7 +93,7 @@ Se você chegou agora e quer começar o desafio, fique a vontade, o desafio não
 + Dia 16 - Botão com efeito
 ![dia16](https://user-images.githubusercontent.com/83260908/128796493-b3ccefe0-a0e4-4c22-b10d-b11771e89d13.gif)
 
-<a href="https://github.com/Camille846/30diasDeCSS/tree/master/dia%2015">Meu código</a>
+<a href="https://github.com/Camille846/30diasDeCSS/tree/master/dia%2016">Meu código</a>
 
 + Dia 17 - Loader animado
 + Dia 18 - Texto esfumaçado
