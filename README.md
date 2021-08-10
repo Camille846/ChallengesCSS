@@ -64,11 +64,37 @@ Se você chegou agora e quer começar o desafio, fique a vontade, o desafio não
 <a href="https://github.com/Camille846/30diasDeCSS/tree/master/dia%2010">Meu código</a>
 
 + Dia 11 - Botão com efeito hover
+![dia11](https://user-images.githubusercontent.com/83260908/128796738-9620d709-5eb9-4e92-91e0-cb73c814e9f5.gif)
+
+<a href="https://github.com/Camille846/30diasDeCSS/tree/master/dia%2011">Meu código</a>
+
 + Dia 12 - Efeito de preenchimento ao passar o mouse
+![dia12](https://user-images.githubusercontent.com/83260908/128796501-3cc14473-e522-4c6c-89f4-e11499d636c8.gif)
+
+<a href="https://github.com/Camille846/30diasDeCSS/tree/master/dia%2012">Meu código</a>
+
 + Dia 13 - Loading com efeito
+![dia13](https://user-images.githubusercontent.com/83260908/128796496-b0d2acf4-e1d5-4af2-a2fa-321210cbfc53.gif)
+
+
+<a href="https://github.com/Camille846/30diasDeCSS/tree/master/dia%2013">Meu código</a>
+
 + Dia 14 - Fundo de texto animado
+![dia14](https://user-images.githubusercontent.com/83260908/128796504-42e5aab3-c3bd-41ad-b6b4-164bde79902c.gif)
+
+
+<a href="https://github.com/Camille846/30diasDeCSS/tree/master/dia%2014">Meu código</a>
+
 + Dia 15 - Texto flutuante
+![dia15](https://user-images.githubusercontent.com/83260908/128796511-39b6989d-041c-47dd-ab45-c60f13d83045.gif)
+
+<a href="https://github.com/Camille846/30diasDeCSS/tree/master/dia%2015">Meu código</a>
+
 + Dia 16 - Botão com efeito
+![dia16](https://user-images.githubusercontent.com/83260908/128796493-b3ccefe0-a0e4-4c22-b10d-b11771e89d13.gif)
+
+<a href="https://github.com/Camille846/30diasDeCSS/tree/master/dia%2015">Meu código</a>
+
 + Dia 17 - Loader animado
 + Dia 18 - Texto esfumaçado
 + Dia 19 - Efeitos de animação de fundo de partículas
