@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #034d3b;
+}
+
+.texto{
+    font-size: 6rem;
+    text-transform: uppercase;
+    display: flex;
+}
+
+span{
+    letter-spacing: 10px;
+    color: rgb(202, 235, 245);
+    font-weight: 700;
+    transition: 2s;
+}
