@@ -16,6 +16,7 @@ body{
     font-size: 6rem;
     text-transform: uppercase;
     display: flex;
+    cursor: pointer;
 }
 
 span{
