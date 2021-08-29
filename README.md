@@ -96,7 +96,15 @@ Se você chegou agora e quer começar o desafio, fique a vontade, o desafio não
 <a href="https://github.com/Camille846/30diasDeCSS/tree/master/dia%2016">Meu código</a>
 
 + Dia 17 - Loader animado
+![dia17](https://user-images.githubusercontent.com/83260908/131268532-3cbb3d6b-305c-44fd-8139-163295bc62ec.gif)
+
+<a href="https://github.com/Camille846/30diasDeCSS/tree/master/dia%2017">Meu código</a>
+
 + Dia 18 - Texto esfumaçado
+![dia18](https://user-images.githubusercontent.com/83260908/131268534-5f7e41aa-9ac0-41f8-9470-8f92d32f4370.gif)
+
+<a href="https://github.com/Camille846/30diasDeCSS/tree/master/dia%2018">Meu código</a>
+
 + Dia 19 - Efeitos de animação de fundo de partículas
 + Dia 20 - Botão com efeito
 + Dia 21 - Esferas quicando
