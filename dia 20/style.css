@@ -10,5 +10,16 @@ body{
     justify-content: center;
     align-items: center;
     background-color: #212121;
+    color: #fff;
+}
+
+.btn{
+    border: 2px solid #fff;
+    background: transparent;
+    outline: none;
+    width: 300px;
+    height: 100px;
+    font-size: 2em;
+    color: #fff;
 }
 
