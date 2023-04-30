@@ -1,0 +1,314 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  -webkit-box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: #42a7a1;
+  color: #333;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.card {
+  position: absolute;
+  top: 90px;
+  left: 60px;
+  height: 220px;
+  width: 280px;
+  background: #fff;
+  -webkit-box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.header {
+  background: #f1ba64;
+  color: #fff;
+  height: 60px;
+  width: 100%;
+  position: relative;
+}
+
+.header .big {
+  position: absolute;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.header .small {
+  position: absolute;
+  font-weight: 400;
+  font-size: 11px;
+}
+
+.header .title {
+  top: 12px;
+  left: 15px;
+}
+
+.header .data {
+  top: 30px;
+  left: 15px;
+}
+
+.header .type {
+  top: 12px;
+  left: 220px;
+}
+
+.header .value {
+  top: 25px;
+  left: 200px;
+}
+
+.parameters {
+  padding: 10px 0 15px 0;
+  text-align: right;
+}
+
+.parameters span {
+  position: relative;
+  font-size: 10px;
+  color: #606060;
+  line-height: 13px;
+  padding: 0 10px 0 25px;
+}
+
+.red-parameter::before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 6px;
+  top: 6px;
+  width: 12px;
+  height: 3px;
+  border-radius: 3px;
+  background: #FA7373;
+}
+
+.blue-parameter::before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 6px;
+  top: 6px;
+  width: 12px;
+  height: 3px;
+  border-radius: 3px;
+  background: #7BA2FF;
+}
+
+.stats {
+  position: relative;
+  width: 260px;
+  height: 80px;
+  margin: 0 auto;
+}
+
+.stats .line-1 {
+  position: absolute;
+  background: #F2F2F2;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+}
+
+.stats .line-2 {
+  position: absolute;
+  background: #F2F2F2;
+  left: 0;
+  right: 0;
+  height: 1px;
+  top: 40px;
+}
+
+.stats .line-3 {
+  position: absolute;
+  background: #F2F2F2;
+  left: 0;
+  right: 0;
+  height: 1px;
+  bottom: 0;
+}
+
+.data svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.data polyline {
+  fill: none;
+  stroke-width: 2;
+  stroke-linecap: round;
+}
+
+.red polyline {
+  stroke: #FA7373;
+}
+
+.blue polyline {
+  stroke: #7BA2FF;
+}
+
+.number {
+  position: absolute;
+  bottom: 13px;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, 10px, 0);
+          transform: translate3d(-50%, 10px, 0);
+  background: #fff;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 11px;
+  border-radius: 3px;
+  padding: 8px 6px;
+  visibility: hidden;
+  -webkit-transition: opacity 0.4s ease-out 0s, -webkit-transform 0.4s ease-out 0s;
+  transition: opacity 0.4s ease-out 0s, -webkit-transform 0.4s ease-out 0s;
+  transition: transform 0.4s ease-out 0s, opacity 0.4s ease-out 0s;
+  transition: transform 0.4s ease-out 0s, opacity 0.4s ease-out 0s, -webkit-transform 0.4s ease-out 0s;
+}
+
+.number::after {
+  content: '';
+  position: absolute;
+  display: block;
+  height: 6px;
+  width: 6px;
+  left: 50%;
+  margin-left: -3px;
+  bottom: -3px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+[class^="point-"] {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+[class^="point-"]:hover .number {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: translate3d(-50%, 0, 0);
+          transform: translate3d(-50%, 0, 0);
+}
+
+.data.red [class^="point-"], .data.red .number, .data.red .number::after {
+  background: #FA7373;
+}
+
+.data.red .point-1 {
+  left: 7px;
+  top: 43px;
+}
+
+.data.red .point-2 {
+  left: 48px;
+  top: 9px;
+}
+
+.data.red .point-3 {
+  left: 88px;
+  top: 20px;
+}
+
+.data.red .point-4 {
+  left: 128px;
+  top: 8px;
+}
+
+.data.red .point-5 {
+  left: 169px;
+  top: 35px;
+}
+
+.data.red .point-6 {
+  left: 209px;
+  top: 45px;
+}
+
+.data.red .point-7 {
+  left: 249px;
+  top: 16px;
+}
+
+.data.blue [class^="point-"], .data.blue .number, .data.blue .number::after {
+  background: #7BA2FF;
+}
+
+.data.blue .point-1 {
+  left: 7px;
+  top: 58px;
+}
+
+.data.blue .point-2 {
+  left: 48px;
+  top: 47px;
+}
+
+.data.blue .point-3 {
+  left: 88px;
+  top: 62px;
+}
+
+.data.blue .point-4 {
+  left: 128px;
+  top: 52px;
+}
+
+.data.blue .point-5 {
+  left: 169px;
+  top: 58px;
+}
+
+.data.blue .point-6 {
+  left: 209px;
+  top: 71px;
+}
+
+.data.blue .point-7 {
+  left: 249px;
+  top: 61px;
+}
+
+.week {
+  width: 280px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.day {
+  font-size: 9px;
+  color: #949494;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=main.css.map */

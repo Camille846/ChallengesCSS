@@ -1,0 +1,308 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  -webkit-box-shadow: 1px 2px 10px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 1px 2px 10px 0 rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  background: #fff;
+  color: #fff;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: -ms-grid;
+  display: grid;
+}
+
+.gallery {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  gap: 2px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3px;
+}
+
+.profile-1 {
+  cursor: pointer;
+  width: 195px;
+  height: 195px;
+  position: relative;
+}
+
+.profile-1 .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0;
+  -webkit-transition: all .6s ease-in-out;
+  transition: all .6s ease-in-out;
+}
+
+.profile-1 .plus {
+  position: absolute;
+  top: 70px;
+  left: 70px;
+  width: 50px;
+  height: 50px;
+  background: #EC6565;
+  border-radius: 50%;
+  -webkit-box-shadow: 2px 4px 10px 0 rgba(0, 0, 0, 0.5);
+          box-shadow: 2px 4px 10px 0 rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+  -webkit-transition: all .6s ease-in-out;
+  transition: all .6s ease-in-out;
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  opacity: 0;
+}
+
+.profile-1 .plus:before {
+  content: '';
+  position: absolute;
+  width: 14px;
+  height: 2px;
+  top: 50%;
+  left: 18px;
+  background: #fff;
+}
+
+.profile-1 .plus:after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 14px;
+  top: 19px;
+  left: 24px;
+  background: #fff;
+}
+
+.profile-1:hover .plus {
+  opacity: 1;
+  -webkit-transform: scale(1) translate(0, 0);
+          transform: scale(1) translate(0, 0);
+}
+
+.profile-1:hover .overlay {
+  opacity: .4;
+}
+
+.profile-2 {
+  cursor: pointer;
+  width: 195px;
+  height: 195px;
+  position: relative;
+}
+
+.profile-2 .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0;
+  -webkit-transition: all .6s ease-in-out;
+  transition: all .6s ease-in-out;
+}
+
+.profile-2 .plus {
+  position: absolute;
+  top: 70px;
+  left: 70px;
+  width: 50px;
+  height: 50px;
+  background: #EC6565;
+  border-radius: 50%;
+  -webkit-box-shadow: 2px 4px 10px 0 rgba(0, 0, 0, 0.5);
+          box-shadow: 2px 4px 10px 0 rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+  -webkit-transition: all .6s ease-in-out;
+  transition: all .6s ease-in-out;
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  opacity: 0;
+}
+
+.profile-2 .plus:before {
+  content: '';
+  position: absolute;
+  width: 14px;
+  height: 2px;
+  top: 50%;
+  left: 18px;
+  background: #fff;
+}
+
+.profile-2 .plus:after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 14px;
+  top: 19px;
+  left: 24px;
+  background: #fff;
+}
+
+.profile-2:hover .plus {
+  opacity: 1;
+  -webkit-transform: scale(1) translate(0, 0);
+          transform: scale(1) translate(0, 0);
+}
+
+.profile-2:hover .overlay {
+  opacity: .4;
+}
+
+.profile-3 {
+  cursor: pointer;
+  width: 195px;
+  height: 195px;
+  position: relative;
+}
+
+.profile-3 .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0;
+  -webkit-transition: all .6s ease-in-out;
+  transition: all .6s ease-in-out;
+}
+
+.profile-3 .plus {
+  position: absolute;
+  top: 70px;
+  left: 70px;
+  width: 50px;
+  height: 50px;
+  background: #EC6565;
+  border-radius: 50%;
+  -webkit-box-shadow: 2px 4px 10px 0 rgba(0, 0, 0, 0.5);
+          box-shadow: 2px 4px 10px 0 rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+  -webkit-transition: all .6s ease-in-out;
+  transition: all .6s ease-in-out;
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  opacity: 0;
+}
+
+.profile-3 .plus:before {
+  content: '';
+  position: absolute;
+  width: 14px;
+  height: 2px;
+  top: 50%;
+  left: 18px;
+  background: #fff;
+}
+
+.profile-3 .plus:after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 14px;
+  top: 19px;
+  left: 24px;
+  background: #fff;
+}
+
+.profile-3:hover .plus {
+  opacity: 1;
+  -webkit-transform: scale(1) translate(0, 0);
+          transform: scale(1) translate(0, 0);
+}
+
+.profile-3:hover .overlay {
+  opacity: .4;
+}
+
+.profile-4 {
+  cursor: pointer;
+  width: 195px;
+  height: 195px;
+  position: relative;
+}
+
+.profile-4 .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0;
+  -webkit-transition: all .6s ease-in-out;
+  transition: all .6s ease-in-out;
+}
+
+.profile-4 .plus {
+  position: absolute;
+  top: 70px;
+  left: 70px;
+  width: 50px;
+  height: 50px;
+  background: #EC6565;
+  border-radius: 50%;
+  -webkit-box-shadow: 2px 4px 10px 0 rgba(0, 0, 0, 0.5);
+          box-shadow: 2px 4px 10px 0 rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+  -webkit-transition: all .6s ease-in-out;
+  transition: all .6s ease-in-out;
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  opacity: 0;
+}
+
+.profile-4 .plus:before {
+  content: '';
+  position: absolute;
+  width: 14px;
+  height: 2px;
+  top: 50%;
+  left: 18px;
+  background: #fff;
+}
+
+.profile-4 .plus:after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 14px;
+  top: 19px;
+  left: 24px;
+  background: #fff;
+}
+
+.profile-4:hover .plus {
+  opacity: 1;
+  -webkit-transform: scale(1) translate(0, 0);
+          transform: scale(1) translate(0, 0);
+}
+
+.profile-4:hover .overlay {
+  opacity: .4;
+}
+/*# sourceMappingURL=main.css.map */

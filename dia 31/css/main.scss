@@ -1,0 +1,99 @@
+$floor: #232323;
+$background: #e5cfb3;
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+	box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.3);
+	overflow: hidden;
+  background: $background;
+	background: radial-gradient(ellipse at center,  rgba(246,232,215,1) 0%,rgba(218,190,155,1) 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6e8d7', endColorstr='#dabe9b',GradientType=1 );
+  color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.floor{
+	position: absolute;
+	top: 244px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background:$floor;
+}
+
+.person{
+		animation:show-up .8s ease-out 1s;
+		animation-fill-mode:both;
+	
+	.leg{
+		width:151px;
+		height:245px;
+		position:absolute;
+		top:0;
+		left: 147px;	
+		transform-origin: 50% 0;
+	}
+		.left{
+			animation: leg-movement 2s ease-in-out infinite;
+			
+			.boot{
+				animation:walking 2s ease-in-out infinite;
+			}
+		}
+		
+		.right{
+			animation: leg-movement 2s ease-in-out 1s infinite;
+			
+			.boot{
+				animation:walking 2s ease-in-out 1s infinite;
+			}
+		}
+	
+	.boot{
+		background: url('https://100dayscss.com/codepen/doc-martens.svg') center center no-repeat;
+		width: 151px;
+		height: 128px;
+		position:absolute;
+		left:0;
+		bottom:0;
+		transform-origin: 0 95%;
+	}
+}
+
+@keyframes show-up{
+	0%{opacity:0;}
+	100%{opacity:1;}
+}
+
+@keyframes leg-movement{
+	0%{transform:rotate(-22deg);}
+	50%{transform:rotate(40deg);}
+	100%{transform:rotate(-22deg);}
+}
+
+@keyframes walking{
+	0% {
+		transform: rotate(-10deg) translateY(-5px) translateX(10px);
+	}
+	25% {
+		transform: rotate(0deg) translateY(0px) translateX(0);
+	}
+	50% {
+		transform: rotate(10deg) translateY(-10px) translateX(10px);
+	}
+	75% {
+		transform: rotate(0deg) translateY(-30px) translateX(0);
+	}
+	100% {
+		transform: rotate(-10deg) translateY(-5px) translateX(10px);
+	}
+}

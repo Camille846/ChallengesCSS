@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 2px;
+    box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+    overflow: hidden;
+    background:#3faf82;
+    color: #333;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.menu{
+    height:200px;
+    width:200px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+}
+
+.menu-burger{
+    width:80px;
+    height:7px;
+    background:white;
+    border-radius:5px;
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,0.3);
+    transition: all .5s ease;
+}
+
+.menu-burger:before, .menu-burger:after {
+    content:'';
+    position:absolute;
+    width:80px;
+    height:7px;
+    background:white;
+    border-radius:5px;
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,0.3);
+    transition: all .5s ease;
+}
+
+.menu-burger:before{
+    transform: translateY(-18px);
+}
+
+.menu-burger:after{
+	transform: translateY(18px);
+}
+
+.menu.open .menu-burger{
+	transition: transform 0.4s ease-in-out, opacity 0.1s ease-in-out 0.2s;
+	background:transparent;
+	box-shadow:none;
+}
+
+.menu.open .menu-burger:before{
+	transition: transform .4s ease-in-out .1s;
+	transform:rotate(45deg);
+}
+.menu.open .menu-burger:after{
+	transition: transform .4s ease-in-out .1s;
+	transform: rotate(135deg);
+}

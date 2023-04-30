@@ -1,0 +1,156 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+$background:#4c4c4c;
+$inside-ring:#242424;
+$red:#F85B5B;
+
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 2px;
+    box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+    overflow: hidden;
+    background: $background;
+    color: #fff;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.circle{
+	width:230px;
+	height:230px;
+	position:relative;
+	background:#3a3a3a;
+	border-radius:50%;
+	display:flex;
+    justify-content: center;
+    align-content: center;
+	
+	.inner-circle{
+		background:$inside-ring;
+		width:212px;
+		height:212px;
+		border-radius:50%;
+		position:absolute;
+		top:50%;
+		left:50%;
+		transform:translate(-50%,-50%);
+		display:flex;
+		justify-content:center;
+        justify-items: center;
+        align-items: center;
+		
+		.red-circle{
+            display: flex;
+			width:190px;
+			height:190px;
+			background:transparent;
+            border-radius:50%;
+			border:3px solid $red;
+            border-right-color: transparent;
+			z-index:2;
+            z-index: 20;
+            animation: spinning 5s linear infinite;
+		}
+
+        .filler{
+            border-radius: 0px 100px 100px 0px;
+            border-left-color: transparent;
+            z-index: 10;
+            transform-origin: 0% 50%;
+            opacity: 0;
+            animation: fill-circle 5s linear infinite;
+        }
+		
+	}
+		
+    .dotted-circle{
+        @extend .inner-circle;
+        width:170px;
+        height:170px;
+        border:3px dotted #fff;
+        background:$inside-ring;
+        z-index:15;
+        display:flex;
+        
+        .watch-content{
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+            
+            .date{
+                text-transform:uppercase;
+                font-size:12px;
+                font-weight:400;
+            }
+            
+            .clock{
+                font-size:2.5em;
+                font-weight:600;
+            }
+            
+            .watch-content-bottom{
+                display:flex;
+                justify-content:space-between;
+                align-items:space-between;
+                gap:10px;
+                
+                .heart{
+                    font-size:12px;
+                    
+                    i{
+                        font-size:13px;
+                        color:$red;
+                        padding:0 5px 0 0;
+						animation: heartbeat 1s linear infinite;
+                    }
+                }
+                
+                .energy{
+                    font-size:12px;
+                    text-transform:uppercase;
+                }
+            }
+        }
+    }  
+}
+
+@keyframes spinning{
+  	0% { 
+        transform: rotate(0deg); 
+    }
+
+    25%{
+        transform: rotate(90deg);    
+    }
+
+    50%{
+        transform: rotate(180deg); 
+    }
+    100% { 
+        transform: rotate(360deg); 
+    }
+}
+
+@keyframes heartbeat{
+	0%{transform: scale(1);}
+    25%{transform: scale(1);}
+    30%{transform: scale(1.4);}
+    50%{transform: scale(1.2);}
+    70%{transform: scale(1.4);}
+    100%{transform: scale(1);}
+}

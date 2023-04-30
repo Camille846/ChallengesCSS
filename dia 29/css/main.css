@@ -1,0 +1,829 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400);
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  -webkit-box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  background: #1a2238;
+  color: #394568;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.moon {
+  width: 70px;
+  height: 70px;
+  background-color: #f6edbd;
+  position: absolute;
+  top: 45px;
+  left: 50px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 15px 0 #f6edbd;
+          box-shadow: 0 0 15px 0 #f6edbd;
+  overflow: hidden;
+  -webkit-animation: moonrise 1s ease-out;
+          animation: moonrise 1s ease-out;
+}
+
+.moon .crater-1, .moon .crater-2, .moon .crater-3, .moon .crater-5, .moon .crater-6, .moon .crater-7, .moon .crater-8, .moon .crater-9, .moon .crater-10, .moon .crater-4, .moon .crater-11 {
+  background: #ece1a8;
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 13px;
+  left: 28px;
+  border-radius: 50%;
+  z-index: 10;
+}
+
+.moon .crater-2 {
+  left: 2px;
+  top: 10px;
+}
+
+.moon .crater-3, .moon .crater-5, .moon .crater-6, .moon .crater-7, .moon .crater-8, .moon .crater-9, .moon .crater-10 {
+  left: 40px;
+  top: 35px;
+  width: 6px;
+  height: 6px;
+}
+
+.moon .crater-4 {
+  left: 10px;
+  top: 55px;
+}
+
+.moon .crater-5 {
+  top: 25px;
+  left: 60px;
+}
+
+.moon .crater-6 {
+  top: 55px;
+  left: 35px;
+}
+
+.moon .crater-7 {
+  top: 18px;
+  left: 48px;
+}
+
+.moon .crater-8 {
+  top: 33px;
+  left: 25px;
+  width: 8px;
+  height: 8px;
+}
+
+.moon .crater-9 {
+  top: 39px;
+  left: 8px;
+}
+
+.moon .crater-10 {
+  top: 25px;
+  left: 15px;
+}
+
+.moon .crater-11 {
+  top: 42px;
+  left: 50px;
+}
+
+.landscape .hill-1-far, .landscape .hill-2-far, .landscape .hill-3-close, .landscape .hill-4-close, .landscape .hill-5-close {
+  position: absolute;
+  background: #26314f;
+  top: 200px;
+  left: -55px;
+  width: 300px;
+  height: 280px;
+  border-radius: 50%;
+}
+
+.landscape .hill-2-far {
+  top: 190px;
+  left: 180px;
+}
+
+.landscape .hill-3-close, .landscape .hill-4-close, .landscape .hill-5-close {
+  background: #303c5d;
+  top: 250px;
+  left: -140px;
+}
+
+.landscape .hill-4-close {
+  top: 250px;
+  left: 60px;
+}
+
+.landscape .hill-5-close {
+  top: 250px;
+  left: 270px;
+}
+
+.rain {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.rain .drop, .rain .drop-1.small, .rain .drop-1.medium, .rain .drop-1.large, .rain .drop-2.small, .rain .drop-2.medium, .rain .drop-2.large, .rain .drop-3.small, .rain .drop-3.medium, .rain .drop-3.large, .rain .drop-4.small, .rain .drop-4.medium, .rain .drop-4.large, .rain .drop-5.small, .rain .drop-5.medium, .rain .drop-5.large, .rain .drop-6.small, .rain .drop-6.medium, .rain .drop-6.large, .rain .drop-7.small, .rain .drop-7.medium, .rain .drop-7.large, .rain .drop-8.small, .rain .drop-8.medium, .rain .drop-8.large, .rain .drop-9.small, .rain .drop-9.medium, .rain .drop-9.large, .rain .drop-10.small, .rain .drop-10.medium, .rain .drop-10.large {
+  z-index: 10;
+  position: absolute;
+  background: #7FC1F9;
+  margin-left: 10px;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+}
+
+.rain .drop:before, .rain .drop-1.small:before, .rain .drop-1.medium:before, .rain .drop-1.large:before, .rain .drop-2.small:before, .rain .drop-2.medium:before, .rain .drop-2.large:before, .rain .drop-3.small:before, .rain .drop-3.medium:before, .rain .drop-3.large:before, .rain .drop-4.small:before, .rain .drop-4.medium:before, .rain .drop-4.large:before, .rain .drop-5.small:before, .rain .drop-5.medium:before, .rain .drop-5.large:before, .rain .drop-6.small:before, .rain .drop-6.medium:before, .rain .drop-6.large:before, .rain .drop-7.small:before, .rain .drop-7.medium:before, .rain .drop-7.large:before, .rain .drop-8.small:before, .rain .drop-8.medium:before, .rain .drop-8.large:before, .rain .drop-9.small:before, .rain .drop-9.medium:before, .rain .drop-9.large:before, .rain .drop-10.small:before, .rain .drop-10.medium:before, .rain .drop-10.large:before {
+  content: '';
+  display: block;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  position: absolute;
+  top: -2px;
+  left: 1px;
+  background: #7FC1F9;
+}
+
+.rain .drop:after, .rain .drop-1.small:after, .rain .drop-1.medium:after, .rain .drop-1.large:after, .rain .drop-2.small:after, .rain .drop-2.medium:after, .rain .drop-2.large:after, .rain .drop-3.small:after, .rain .drop-3.medium:after, .rain .drop-3.large:after, .rain .drop-4.small:after, .rain .drop-4.medium:after, .rain .drop-4.large:after, .rain .drop-5.small:after, .rain .drop-5.medium:after, .rain .drop-5.large:after, .rain .drop-6.small:after, .rain .drop-6.medium:after, .rain .drop-6.large:after, .rain .drop-7.small:after, .rain .drop-7.medium:after, .rain .drop-7.large:after, .rain .drop-8.small:after, .rain .drop-8.medium:after, .rain .drop-8.large:after, .rain .drop-9.small:after, .rain .drop-9.medium:after, .rain .drop-9.large:after, .rain .drop-10.small:after, .rain .drop-10.medium:after, .rain .drop-10.large:after {
+  content: '';
+  display: block;
+  width: 4px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  top: -5px;
+  left: 2px;
+  background: #7FC1F9;
+}
+
+.rain .small {
+  width: 4px;
+  height: 4px;
+  top: -50px;
+  opacity: .5;
+}
+
+.rain .medium {
+  width: 8px;
+  height: 8px;
+  top: -35px;
+  opacity: .7;
+}
+
+.rain .large {
+  top: -35px;
+  width: 10px;
+  height: 10px;
+}
+
+.rain .drop-1.small {
+  width: 4px;
+  height: 4px;
+  opacity: .3;
+  left: 18px;
+  -webkit-animation: raining 2.1s linear 1.48s infinite;
+          animation: raining 2.1s linear 1.48s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.rain .drop-1.medium {
+  width: 8px;
+  height: 8px;
+  top: -35px;
+  opacity: .7;
+  left: 18px;
+  -webkit-animation: raining 1.5s linear 1.84s infinite;
+          animation: raining 1.5s linear 1.84s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.rain .drop-1.large {
+  width: 10px;
+  height: 10px;
+  left: 18px;
+  -webkit-animation: raining 0.9s linear 0.96s infinite;
+          animation: raining 0.9s linear 0.96s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.rain .small {
+  width: 4px;
+  height: 4px;
+  top: -50px;
+  opacity: .5;
+}
+
+.rain .medium {
+  width: 8px;
+  height: 8px;
+  top: -35px;
+  opacity: .7;
+}
+
+.rain .large {
+  top: -35px;
+  width: 10px;
+  height: 10px;
+}
+
+.rain .drop-2.small {
+  width: 4px;
+  height: 4px;
+  opacity: .3;
+  left: 56px;
+  -webkit-animation: raining 2.1s linear 1.56s infinite;
+          animation: raining 2.1s linear 1.56s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.rain .drop-2.medium {
+  width: 8px;
+  height: 8px;
+  top: -35px;
+  opacity: .7;
+  left: 56px;
+  -webkit-animation: raining 1.5s linear 0.88s infinite;
+          animation: raining 1.5s linear 0.88s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.rain .drop-2.large {
+  width: 10px;
+  height: 10px;
+  left: 56px;
+  -webkit-animation: raining 0.8s linear 1.88s infinite;
+          animation: raining 0.8s linear 1.88s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.rain .small {
+  width: 4px;
+  height: 4px;
+  top: -50px;
+  opacity: .5;
+}
+
+.rain .medium {
+  width: 8px;
+  height: 8px;
+  top: -35px;
+  opacity: .7;
+}
+
+.rain .large {
+  top: -35px;
+  width: 10px;
+  height: 10px;
+}
+
+.rain .drop-3.small {
+  width: 4px;
+  height: 4px;
+  opacity: .3;
+  left: 94px;
+  -webkit-animation: raining 2.1s linear 0.12s infinite;
+          animation: raining 2.1s linear 0.12s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.rain .drop-3.medium {
+  width: 8px;
+  height: 8px;
+  top: -35px;
+  opacity: .7;
+  left: 94px;
+  -webkit-animation: raining 1.4s linear 0.52s infinite;
+          animation: raining 1.4s linear 0.52s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.rain .drop-3.large {
+  width: 10px;
+  height: 10px;
+  left: 94px;
+  -webkit-animation: raining 0.9s linear 1.88s infinite;
+          animation: raining 0.9s linear 1.88s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.rain .small {
+  width: 4px;
+  height: 4px;
+  top: -50px;
+  opacity: .5;
+}
+
+.rain .medium {
+  width: 8px;
+  height: 8px;
+  top: -35px;
+  opacity: .7;
+}
+
+.rain .large {
+  top: -35px;
+  width: 10px;
+  height: 10px;
+}
+
+.rain .drop-4.small {
+  width: 4px;
+  height: 4px;
+  opacity: .3;
+  left: 132px;
+  -webkit-animation: raining 2.1s linear 0.52s infinite;
+          animation: raining 2.1s linear 0.52s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.rain .drop-4.medium {
+  width: 8px;
+  height: 8px;
+  top: -35px;
+  opacity: .7;
+  left: 132px;
+  -webkit-animation: raining 1.5s linear 0.8s infinite;
+          animation: raining 1.5s linear 0.8s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.rain .drop-4.large {
+  width: 10px;
+  height: 10px;
+  left: 132px;
+  -webkit-animation: raining 0.8s linear 0.12s infinite;
+          animation: raining 0.8s linear 0.12s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.rain .small {
+  width: 4px;
+  height: 4px;
+  top: -50px;
+  opacity: .5;
+}
+
+.rain .medium {
+  width: 8px;
+  height: 8px;
+  top: -35px;
+  opacity: .7;
+}
+
+.rain .large {
+  top: -35px;
+  width: 10px;
+  height: 10px;
+}
+
+.rain .drop-5.small {
+  width: 4px;
+  height: 4px;
+  opacity: .3;
+  left: 170px;
+  -webkit-animation: raining 2s linear 0.12s infinite;
+          animation: raining 2s linear 0.12s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.rain .drop-5.medium {
+  width: 8px;
+  height: 8px;
+  top: -35px;
+  opacity: .7;
+  left: 170px;
+  -webkit-animation: raining 1.4s linear 0.36s infinite;
+          animation: raining 1.4s linear 0.36s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.rain .drop-5.large {
+  width: 10px;
+  height: 10px;
+  left: 170px;
+  -webkit-animation: raining 0.8s linear 0.44s infinite;
+          animation: raining 0.8s linear 0.44s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.rain .small {
+  width: 4px;
+  height: 4px;
+  top: -50px;
+  opacity: .5;
+}
+
+.rain .medium {
+  width: 8px;
+  height: 8px;
+  top: -35px;
+  opacity: .7;
+}
+
+.rain .large {
+  top: -35px;
+  width: 10px;
+  height: 10px;
+}
+
+.rain .drop-6.small {
+  width: 4px;
+  height: 4px;
+  opacity: .3;
+  left: 208px;
+  -webkit-animation: raining 2.1s linear 2s infinite;
+          animation: raining 2.1s linear 2s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.rain .drop-6.medium {
+  width: 8px;
+  height: 8px;
+  top: -35px;
+  opacity: .7;
+  left: 208px;
+  -webkit-animation: raining 1.4s linear 1.04s infinite;
+          animation: raining 1.4s linear 1.04s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.rain .drop-6.large {
+  width: 10px;
+  height: 10px;
+  left: 208px;
+  -webkit-animation: raining 0.8s linear 0.84s infinite;
+          animation: raining 0.8s linear 0.84s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.rain .small {
+  width: 4px;
+  height: 4px;
+  top: -50px;
+  opacity: .5;
+}
+
+.rain .medium {
+  width: 8px;
+  height: 8px;
+  top: -35px;
+  opacity: .7;
+}
+
+.rain .large {
+  top: -35px;
+  width: 10px;
+  height: 10px;
+}
+
+.rain .drop-7.small {
+  width: 4px;
+  height: 4px;
+  opacity: .3;
+  left: 246px;
+  -webkit-animation: raining 2.1s linear 0.76s infinite;
+          animation: raining 2.1s linear 0.76s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.rain .drop-7.medium {
+  width: 8px;
+  height: 8px;
+  top: -35px;
+  opacity: .7;
+  left: 246px;
+  -webkit-animation: raining 1.4s linear 0.16s infinite;
+          animation: raining 1.4s linear 0.16s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.rain .drop-7.large {
+  width: 10px;
+  height: 10px;
+  left: 246px;
+  -webkit-animation: raining 0.9s linear 1.2s infinite;
+          animation: raining 0.9s linear 1.2s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.rain .small {
+  width: 4px;
+  height: 4px;
+  top: -50px;
+  opacity: .5;
+}
+
+.rain .medium {
+  width: 8px;
+  height: 8px;
+  top: -35px;
+  opacity: .7;
+}
+
+.rain .large {
+  top: -35px;
+  width: 10px;
+  height: 10px;
+}
+
+.rain .drop-8.small {
+  width: 4px;
+  height: 4px;
+  opacity: .3;
+  left: 284px;
+  -webkit-animation: raining 2s linear 1.16s infinite;
+          animation: raining 2s linear 1.16s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.rain .drop-8.medium {
+  width: 8px;
+  height: 8px;
+  top: -35px;
+  opacity: .7;
+  left: 284px;
+  -webkit-animation: raining 1.4s linear 0.56s infinite;
+          animation: raining 1.4s linear 0.56s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.rain .drop-8.large {
+  width: 10px;
+  height: 10px;
+  left: 284px;
+  -webkit-animation: raining 0.8s linear 1.6s infinite;
+          animation: raining 0.8s linear 1.6s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.rain .small {
+  width: 4px;
+  height: 4px;
+  top: -50px;
+  opacity: .5;
+}
+
+.rain .medium {
+  width: 8px;
+  height: 8px;
+  top: -35px;
+  opacity: .7;
+}
+
+.rain .large {
+  top: -35px;
+  width: 10px;
+  height: 10px;
+}
+
+.rain .drop-9.small {
+  width: 4px;
+  height: 4px;
+  opacity: .3;
+  left: 322px;
+  -webkit-animation: raining 2.1s linear 0.32s infinite;
+          animation: raining 2.1s linear 0.32s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.rain .drop-9.medium {
+  width: 8px;
+  height: 8px;
+  top: -35px;
+  opacity: .7;
+  left: 322px;
+  -webkit-animation: raining 1.5s linear 1.56s infinite;
+          animation: raining 1.5s linear 1.56s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.rain .drop-9.large {
+  width: 10px;
+  height: 10px;
+  left: 322px;
+  -webkit-animation: raining 0.8s linear 0.56s infinite;
+          animation: raining 0.8s linear 0.56s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.rain .small {
+  width: 4px;
+  height: 4px;
+  top: -50px;
+  opacity: .5;
+}
+
+.rain .medium {
+  width: 8px;
+  height: 8px;
+  top: -35px;
+  opacity: .7;
+}
+
+.rain .large {
+  top: -35px;
+  width: 10px;
+  height: 10px;
+}
+
+.rain .drop-10.small {
+  width: 4px;
+  height: 4px;
+  opacity: .3;
+  left: 360px;
+  -webkit-animation: raining 2s linear 1.04s infinite;
+          animation: raining 2s linear 1.04s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.rain .drop-10.medium {
+  width: 8px;
+  height: 8px;
+  top: -35px;
+  opacity: .7;
+  left: 360px;
+  -webkit-animation: raining 1.4s linear 1.56s infinite;
+          animation: raining 1.4s linear 1.56s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.rain .drop-10.large {
+  width: 10px;
+  height: 10px;
+  left: 360px;
+  -webkit-animation: raining 0.9s linear 1.24s infinite;
+          animation: raining 0.9s linear 1.24s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.panel {
+  background: #fff;
+  z-index: 10;
+  position: absolute;
+  margin-top: 320px;
+  width: 400px;
+  height: 80px;
+  padding: 20px 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.panel .temperature {
+  float: left;
+  margin-left: 1px;
+  font-size: 3em;
+  line-height: 40px;
+  font-weight: 300;
+}
+
+.panel .conditions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 20px;
+  line-height: 22px;
+  width: 40%;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.panel .weather {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+  text-align: right;
+  width: 40%;
+  font-size: 15px;
+  line-height: 22px;
+  word-spacing: 6px;
+  margin-right: 15px;
+  font-weight: 300;
+}
+
+.panel .weather span {
+  font-weight: 400;
+}
+
+@-webkit-keyframes raining {
+  0% {
+    -webkit-transform: translate(0, 0) scaleX(1) scaleY(1) rotate(17deg);
+            transform: translate(0, 0) scaleX(1) scaleY(1) rotate(17deg);
+  }
+  85% {
+    -webkit-transform: translate(-80px, 350px) scaleX(1) scaleY(1) rotate(17deg);
+            transform: translate(-80px, 350px) scaleX(1) scaleY(1) rotate(17deg);
+  }
+  100% {
+    -webkit-transform: translate(-80px, 350px) scaleX(3) scaleY(0) rotate(0deg);
+            transform: translate(-80px, 350px) scaleX(3) scaleY(0) rotate(0deg);
+  }
+}
+
+@keyframes raining {
+  0% {
+    -webkit-transform: translate(0, 0) scaleX(1) scaleY(1) rotate(17deg);
+            transform: translate(0, 0) scaleX(1) scaleY(1) rotate(17deg);
+  }
+  85% {
+    -webkit-transform: translate(-80px, 350px) scaleX(1) scaleY(1) rotate(17deg);
+            transform: translate(-80px, 350px) scaleX(1) scaleY(1) rotate(17deg);
+  }
+  100% {
+    -webkit-transform: translate(-80px, 350px) scaleX(3) scaleY(0) rotate(0deg);
+            transform: translate(-80px, 350px) scaleX(3) scaleY(0) rotate(0deg);
+  }
+}
+
+@-webkit-keyframes moonrise {
+  from {
+    -webkit-transform: translate(-20px, 200px);
+            transform: translate(-20px, 200px);
+  }
+  to {
+    -webkit-transform: translate(0, 0px);
+            transform: translate(0, 0px);
+  }
+}
+
+@keyframes moonrise {
+  from {
+    -webkit-transform: translate(-20px, 200px);
+            transform: translate(-20px, 200px);
+  }
+  to {
+    -webkit-transform: translate(0, 0px);
+            transform: translate(0, 0px);
+  }
+}
+/*# sourceMappingURL=main.css.map */
