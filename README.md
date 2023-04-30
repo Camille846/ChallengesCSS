@@ -2,16 +2,19 @@
 
 > status: Developing ⚠️
 
-### 30 dias de CSS3, é um desafio que visa ajudá-lo a melhorar suas habilidades de codificação fazendo mini projetos diarios utilizando HTML5 e CSS3 desenvolvido por <a href="https://github.com/MilenaCarecho" target="_blank">Milena Carecho</a>.
+### 30 dias de CSS3, é um desafio que visa melhorar habilidades de codificação fazendo mini projetos diarios utilizando HTML5 e CSS3. Os desafios podem ser acessados em: <a href="https://100dayscss.com">100DaysCSS</a> e alguns através do repositório da <a href="https://github.com/MilenaCarecho" target="_blank">Milena Carecho</a>.
 
 <h1> Objetivo </h1>
-30 dias de CSS3 é um desafio que vou aceitar (e você também pode participar) a partir de 19 de Julho de 2021, que visa melhorar minhas habilidades em HTML5 e CSS3 através da realização de projetos
+30 dias de CSS3 é um desafio que vou aceitar (e você também pode participar) a partir de 19 de Julho de 2021, que visa melhorar minhas habilidades em HTML5 e CSS3 através da realização de projetos.
 
-Se você chegou agora e quer começar o desafio, fique a vontade, o desafio não tem data de inicio fixa, cada um faz os seus 30 dias, eu ficarei honrada com sua participação 😉
+Não é necessário parar após os 30 dias. Continue criando mini projetos diários e terá resultados ainda melhores.
+
+Se você chegou agora e quer começar o desafio, fique a vontade, o desafio não tem data de inicio fixa, cada um faz os seus 30 dias ou mais. Eu ficarei honrada com sua participação 😉
 
 <h4> Youtube Referencias dos desafios </h4>
 <a href="https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog" target="_blank"> Online Tutorials </a> - <a href="https://www.youtube.com/channel/UCOKmVksbzoKJKmtu7rlEM1A" target="blank"> Creative Creations </a>  - <a href="https://www.youtube.com/channel/UCD3KVjbb7aq2OiOffuungzw" target="_blank"> Darkcode </a>
 
+<h1> Resultados </h1>
 + Dia 01 - Ícone de mídia social em camadas
 ![dia01](https://user-images.githubusercontent.com/83260908/127248714-f4475dd4-983d-473d-9a7f-43c57ce40e92.gif)
 
@@ -105,15 +108,78 @@ Se você chegou agora e quer começar o desafio, fique a vontade, o desafio não
 
 <a href="https://github.com/Camille846/30diasDeCSS/tree/master/dia%2018">Meu código</a>
 
-+ Dia 19 - Efeitos de animação de fundo de partículas
-+ Dia 20 - Botão com efeito
-+ Dia 21 - Esferas quicando
-+ Dia 22 - Icones com efeito
-+ Dia 23 - Botão com efeito hover
-+ Dia 24 - Preloader animado
-+ Dia 25 - Checkbox animado
-+ Dia 26 - Loading com efeito
-+ Dia 27 - Efeito pulsar
-+ Dia 28 - Cor do background mudando
-+ Dia 29 - Menu responsivo com Media Queries
-+ Dia 30 - Fogos de artificio
++ Dia 19 - 
+!
+
+<a href="">Meu código</a>
+
++ Dia 20 - 
+!
+
+<a href="">Meu código</a>
+
++ Dia 21 - 
+!
+
+<a href="">Meu código</a>
+
++ Dia 22 - 
+!
+
+<a href="">Meu código</a>
+
++ Dia 23 - 
+!
+
+<a href="">Meu código</a>
+
++ Dia 24 - 
+!
+
+<a href="">Meu código</a>
+
++ Dia 25 - 
+!
+
+<a href="">Meu código</a>
+
++ Dia 26 - 
+!
+
+<a href="">Meu código</a>
+
++ Dia 27 - 
+!
+
+<a href="">Meu código</a>
+
++ Dia 28 - 
+!
+
+<a href="">Meu código</a>
+
++ Dia 29 - 
+!
+
+<a href="">Meu código</a>
+
++ Dia 30 - 
+!
+
+<a href="">Meu código</a>
+
++ Dia 31 - 
+!
+
+<a href="">Meu código</a>
+
++ Dia 32 - 
+!
+
+<a href="">Meu código</a>
+
++ Dia 33 - 
+!
+
+<a href="">Meu código</a>
+
