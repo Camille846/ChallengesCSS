@@ -99,87 +99,98 @@ Se você chegou agora e quer começar o desafio, fique a vontade, o desafio não
 <a href="https://github.com/Camille846/30diasDeCSS/tree/master/dia%2016">Meu código</a>
 
 + Dia 17 - Loader animado
+
 ![dia-17](https://user-images.githubusercontent.com/83260908/131268648-08742e67-8641-412f-885f-4ace4bfb0180.gif)
 
 <a href="https://github.com/Camille846/30diasDeCSS/tree/master/dia%2017">Meu código</a>
 
 + Dia 18 - Texto esfumaçado
+
 ![dia-18](https://user-images.githubusercontent.com/83260908/131268672-da4dd40d-8383-4a57-befa-e54c6dc584f0.gif)
 
 <a href="https://github.com/Camille846/30diasDeCSS/tree/master/dia%2018">Meu código</a>
 
-+ Dia 19 - 
-!
++ Dia 19 - Botão com efeito
 
-<a href="">Meu código</a>
+![dia19](https://user-images.githubusercontent.com/83260908/235368726-592aaeb3-e071-4f15-be7a-76ed80cc4d5f.gif)
 
-+ Dia 20 - 
-!
+<a href="https://github.com/Camille846/30diasDeCSS/tree/master/dia%2019">Meu código</a>
 
-<a href="">Meu código</a>
++ Dia 20 - Card com efeito gradiente
 
-+ Dia 21 - 
-!
+![image](https://user-images.githubusercontent.com/83260908/127424071-a323e989-c3a9-4631-a749-04c0791f1eb8.png)
 
-<a href="">Meu código</a>
+<a href="https://github.com/Camille846/30diasDeCSS/tree/master/dia%2020">Meu código</a>
 
-+ Dia 22 - 
-!
++ Dia 21 - Menu icon
 
-<a href="">Meu código</a>
+![day2](https://user-images.githubusercontent.com/83260908/127424405-1c85c1f4-b513-46de-ba52-0e8861374735.gif)
 
-+ Dia 23 - 
-!
+<a href="https://github.com/Camille846/30diasDeCSS/tree/master/dia%2021">Meu código</a>
 
-<a href="">Meu código</a>
++ Dia 22 - Pirâmide CSS
 
-+ Dia 24 - 
-!
+![day3](https://user-images.githubusercontent.com/83260908/127425249-ceb3fdfb-561b-4181-95df-4f57a1c2a2d3.gif)
 
-<a href="">Meu código</a>
+<a href="https://github.com/Camille846/30diasDeCSS/tree/master/dia%2022">Meu código</a>
 
-+ Dia 25 - 
-!
++ Dia 23 - Loading
 
-<a href="">Meu código</a>
+![day4](https://user-images.githubusercontent.com/83260908/127425248-90f95f2d-96bc-45fd-a4e7-87ee5f4ddb33.gif)
 
-+ Dia 26 - 
-!
+<a href="https://github.com/Camille846/30diasDeCSS/tree/master/dia%2023">Meu código</a>
 
-<a href="">Meu código</a>
++ Dia 24 - Estatística
 
-+ Dia 27 - 
-!
+![day5](https://user-images.githubusercontent.com/83260908/127425247-666207b1-2e73-4bfb-873d-0a7e1d01a2bc.gif)
 
-<a href="">Meu código</a>
+<a href="https://github.com/Camille846/30diasDeCSS/tree/master/dia%2024">Meu código</a>
 
-+ Dia 28 - 
-!
++ Dia 25 - Profile
 
-<a href="">Meu código</a>
+![day6](https://user-images.githubusercontent.com/83260908/127426726-f5715c06-95d9-4c1e-80c1-a59ee4c662d5.gif)
+
+<a href="https://github.com/Camille846/30diasDeCSS/tree/master/dia%2025">Meu código</a>
+
++ Dia 26 - Notificações, busca e menu
+
+![day7](https://user-images.githubusercontent.com/83260908/127426720-a8637940-937a-4f10-90bb-a89add4ee2f5.gif)
+
+<a href="https://github.com/Camille846/30diasDeCSS/tree/master/dia%2026">Meu código</a>
+
++ Dia 27 - Metaballs
+
+![day08](https://user-images.githubusercontent.com/83260908/127585896-8afa19c6-ab00-4840-92db-38667cf9bdd2.gif)
+
+<a href="https://github.com/Camille846/30diasDeCSS/tree/master/dia%2027">Meu código</a>
+
++ Dia 28 - Noite de chuva
+
+![day09](https://user-images.githubusercontent.com/83260908/127585902-77884969-93a5-4d99-83f4-7b9f52670998.gif)
+
+<a href="https://github.com/Camille846/30diasDeCSS/tree/master/dia%2028">Meu código</a>
 
 + Dia 29 - 
-!
 
-<a href="">Meu código</a>
 
-+ Dia 30 - 
-!
+<a href="https://github.com/Camille846/30diasDeCSS/tree/master/dia%2029">Meu código</a>
 
-<a href="">Meu código</a>
++ Dia 30 - Walking boots
 
-+ Dia 31 - 
-!
+![dia30](https://user-images.githubusercontent.com/83260908/235369185-87a5cd99-89d3-4e57-bd13-7b8dbc3e67ab.gif)
 
-<a href="">Meu código</a>
+<a href="https://github.com/Camille846/30diasDeCSS/tree/master/dia%2030">Meu código</a>
 
-+ Dia 32 - 
-!
++ Dia 31 - Tooltip
 
-<a href="">Meu código</a>
+![dia31](https://user-images.githubusercontent.com/83260908/235369216-b1a37070-08c6-4ab4-9fba-bc18b7792398.gif)
 
-+ Dia 33 - 
-!
+<a href="https://github.com/Camille846/30diasDeCSS/tree/master/dia%2031">Meu código</a>
 
-<a href="">Meu código</a>
++ Dia 32 - Galeria
+
+![dia32](https://user-images.githubusercontent.com/83260908/235369253-11868c0b-04bd-4832-8f42-4ed50a8d6813.gif)
+
+<a href="https://github.com/Camille846/30diasDeCSS/tree/master/dia%2032">Meu código</a>
+
 
